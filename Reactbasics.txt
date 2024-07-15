@@ -1,0 +1,33 @@
+So react is basically devided into 2 categories that are react-dom and react-native
+
+If a user has to make any website than he will use react with react-dom but if he wants to make apps and all then
+react-native is used
+
+Now to start a react propject we need to write in the terminal npx create-react-app where npx is node package executor
+but this is a slow way to do this 
+
+NOW IN REACT WE RENDER HTML LIKE WE CAN MAKE A FUNCTION AND HENCE RETURN HTML TAGS 
+So, What basically happening is that we create a root by reactDom.createroot and give it the value by doc.getelementbyid('root')
+that root is in index.html
+now by using .render and calling <app /> which is a function defined by us returning a h1
+or we can say html
+
+
+SO LONG THING SHORT BY USING REACT WE CAN MAKE HTML AS A PROGRAMMING LANGUAGE
+
+ACTUALLY WE ARE USING VITE THEREFORE THE SCRIPT TAG IS ALREADY WRITTEN IN INDEX.HTML
+BUT IF WE WOULD HAVE USED CORE REACT THAT IS THROUGH NPX THEN WE WOULD HAVE SEEN THAT THE SCRIPT IS CALLED BY SCRIPTS
+
+
+
+Now lets make some function but before that some points to be noted
+-->function must always start with a capital letter
+-->In jsx file type we can only return only one fragment in a function eg. <h1>is one fragment
+-->To overcome that we make use of <> </> wrapper
+
+
+  Now we should also know how to work with the variables in this so we can return any variable of js by {var}
+  But we need to make sure that we can only perform return operations i.e we can not perform logical oper there
+  So to perform any logical opern we can perform it outside the return we can not perform any if and else statement
+  there as it is an evaluated statement and js has some syntax which we on our own cant manipulatee
+  
